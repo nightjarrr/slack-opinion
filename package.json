@@ -1,21 +1,18 @@
 {
-  "name": "starter-slapp-app",
+  "name": "slack-opinion",
   "version": "1.0.0",
-  "description": "Basic Slack app using the Slapp library and Slack Events API",
+  "description": "An opinionated Slack bot that makes getting feedback within a team really easy.",
   "scripts": {
     "watch": "nodemon server.js",
     "test": "standard"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BeepBoopHQ/starter-slapp-app.git"
+    "url": "git+https://github.com/nightjarrr/slack-opinion.git"
   },
-  "author": "Brad Harris",
+  "author": "Alexey Nedilko",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BeepBoopHQ/starter-slapp-app/issues"
-  },
-  "homepage": "https://github.com/BeepBoopHQ/starter-slapp-app#readme",
+  "homepage": "https://github.com/nightjarrr/slack-opinion",
   "dependencies": {
     "express": "^4.14.0",
     "nodemon": "^1.11.0",
